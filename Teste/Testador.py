@@ -21,10 +21,10 @@ class Testes:
         self.lst = self.valores
         self.entrada = iter(elemento for elemento in self.lst if ' ' in elemento)
 
-    def proximoCasoinput(self):  # Retorna o próximo elemento dos casos
+    def pcinput(self):  # Retorna o próximo elemento dos casos
         return next(self.casos)
 
-    def proximoinput(self):  # Retorna o próximo elemento dos inputs
+    def pinput(self):  # Retorna o próximo elemento dos inputs
         return next(self.entrada)
 
     def tam_casos(self):
