@@ -1,9 +1,8 @@
-from Teste.Testador import Testes
-
-t = Testes('C:/Users/Tiago/PycharmProjects/URIonline/Teste/Respostas.txt')
+# from Teste.Testador import Testes
+# t = Testes('C:/Users/Tiago/PycharmProjects/URIonline/Teste/Respostas.txt')
 
 while True:
-    ordem = int(t.proximoCasoinput())
+    ordem = int(input())
     if ordem == 0:
         break
     matriz = []
