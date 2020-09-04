@@ -18,6 +18,5 @@ while 0 <= nxt < stars:
     else:
         nxt -= 1
 
-
 taken = taken.count(1)
 print(taken, tlambs)
