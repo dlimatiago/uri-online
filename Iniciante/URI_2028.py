@@ -1,7 +1,7 @@
 # from Teste.Testador import Testes
 # t = Testes('C:/Users/Tiago/PycharmProjects/URIonline/Teste/Respostas.txt')
 
-caso = 1
+caso = 1 
 while True:
     try:
         ns = [0]
