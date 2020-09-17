@@ -27,6 +27,7 @@ INSERT INTO legal_person VALUES
     (5,	'47773848000117', '99100-8965');
 */
 
-SELECT DISTINCT customers.name
-from customers, legal_person
-WHERE customers.id in (SELECT id_customers from legal_person);
+select cus.name
+from customers as cus
+join legal_person as leg
+on cus.id = leg.id_customers
